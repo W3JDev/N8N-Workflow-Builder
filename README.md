@@ -1,4 +1,3 @@
-```markdown
 # N8N Workflow Builder - A No-Code Platform for Netlify Deployments
 
 Welcome to the **N8N Workflow Builder**! This repository is your gateway to democratizing workflow automation through a user-friendly, no-code platform. Built with modern technologies and powered by **v0.dev**, it enables seamless workflow design and deployment.
@@ -118,12 +117,4 @@ Let’s build this together!
 ---
 
 If you have any questions or need further assistance, feel free to open an issue in this repository or contact the maintainers directly.
-```
 
-### Key Updates Added:
-- Clear comparison table for completed and pending features.
-- Defined short-term and long-term roadmap goals.
-- Enhanced contribution guidelines for both beginners and advanced developers.
-- Deployment details updated to indicate the use of **v0.dev**.
-
-Let me know if you'd like to refine or expand any section further!
