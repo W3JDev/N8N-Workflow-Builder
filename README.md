@@ -1,5 +1,3 @@
-To accurately update your README file, I'll provide a structured and updated version based on your request. The updated README will preserve the initial descriptive part, add a comparison of key features (completed and pending), include a clear roadmap, and provide contribution guidelines.
-
 ```markdown
 # N8N Workflow Builder - A No-Code Platform for Netlify Deployments
 
