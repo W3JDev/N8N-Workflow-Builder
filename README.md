@@ -1,6 +1,11 @@
+To accurately update your README file, I'll provide a structured and updated version based on your request. The updated README will preserve the initial descriptive part, add a comparison of key features (completed and pending), include a clear roadmap, and provide contribution guidelines.
+
+```markdown
 # N8N Workflow Builder - A No-Code Platform for Netlify Deployments
 
-Welcome to the **N8N Workflow Builder**! This repository is your gateway to democratizing workflow automation through a user-friendly, no-code platform. Built with modern technologies, powered by **Bolt.diy**, and designed to simplify **n8n workflow creation and deployment**, this tool provides non-technical users the ability to visually design, build, and deploy workflows seamlessly to **Netlify**.
+Welcome to the **N8N Workflow Builder**! This repository is your gateway to democratizing workflow automation through a user-friendly, no-code platform. Built with modern technologies and powered by **v0.dev**, it enables seamless workflow design and deployment.
+
+---
 
 ## Overview
 
@@ -15,79 +20,17 @@ This tool is built primarily with **TypeScript (97.7%)**, along with **CSS (1.5%
 
 ---
 
-## Key Features
+## Key Features: Completed vs. Pending
 
-### 1. Visual Workflow Designer
-- Drag-and-drop interface for intuitive creation and modification of workflows.
-- Abstracts n8n's code-based structure into a **no-code experience** while maintaining compatibility with n8n's workflow schema.
-- Full support for **n8n nodes, connections, and parameters**.
-
-### 2. Automated Netlify Deployment
-- One-click deployment of workflows to **Netlify**.
-- Automatically configures serverless functions, backend integrations, and environment variables for smooth operation.
-- Streamlined deployment pipeline leveraging **Netlify’s API** and automated configuration files.
-
-### 3. Integrated AI Workflow Agent
-- **AI-driven workflow generation**: Create workflows based on natural language descriptions.
-- **Node configuration assistance**: AI-powered recommendations for configuring workflow nodes.
-- **Workflow optimization**: Analyze workflows for potential improvements and debugging suggestions.
-- **Template curation**: AI-driven suggestions for categorizing and customizing templates.
-- **Autonomous problem-solving**: Translate high-level automation requests into functional workflows.
-
-### 4. Workflow Template Library
-- A curated library of pre-built, customizable templates.
-- Users can browse, search, and deploy templates tailored to common automation scenarios.
-
-### 5. Real-Time Monitoring and Metadata Management
-- Updates workflow execution status in real-time.
-- Robust filtering and search capabilities for managing workflows and metadata.
-
-### 6. Responsive and User-Friendly UI
-- Built with **Next.js, React, and Tailwind CSS** for a fully responsive experience.
-- Adapts seamlessly to desktop, tablet, and mobile screens, ensuring an intuitive interface for all users.
-
-### 7. Secure Database Integration
-- Secure storage for workflows, templates, and user data.
-- Serverless database solutions compatible with Netlify ensure scalability and security.
-
-### 8. Netlify-Native Deployment Architecture
-- Designed for **Netlify’s serverless infrastructure**, optimizing performance and scalability.
-- Deployable as a static site or serverless application.
-
-### 9. Comprehensive User Documentation
-- Detailed instructions for using the platform, from workflow design to deployment.
-- Best practices for leveraging the integrated AI agent and optimizing workflows.
-
----
-
-## Technical Architecture
-
-- **Frontend**: Built with **Next.js** for a modern, high-performance UI.
-- **State Management**: Utilizes React’s Context API for seamless communication between components.
-- **AI Integration**: Powered by the **AI SDK**, enabling LLM-driven functionality.
-- **Drag-and-Drop**: Implements **@dnd-kit** libraries for a robust visual workflow designer.
-- **Deployment**: Hosted on **Netlify**, leveraging its serverless functions and APIs.
-- **Styling**: Designed with **Tailwind CSS** for responsive and adaptive layouts.
-
----
-
-## How It Works
-
-1. **Design Workflows**:
-   - Use the drag-and-drop interface to visually create workflows.
-   - Configure nodes and connections with AI assistance.
-
-2. **AI-Powered Assistance**:
-   - Generate workflows by describing automation tasks in plain language.
-   - Get real-time suggestions for node configurations and workflow optimizations.
-
-3. **Deploy to Netlify**:
-   - With a single click, deploy workflows directly to Netlify.
-   - Automatically configure serverless functions and backend integrations for smooth operation.
-
-4. **Monitor and Manage**:
-   - Track workflow execution in real-time.
-   - Use the metadata management tools to organize and search workflows efficiently.
+| Key Feature                         | Status        | Description                                                                 |
+|-------------------------------------|---------------|-----------------------------------------------------------------------------|
+| Visual Workflow Designer            | **Completed** | Drag-and-drop interface for intuitive workflow creation and editing.        |
+| Automated Netlify Deployment        | **Completed** | One-click deployment of workflows to Netlify with automated configurations. |
+| AI Workflow Agent                   | **Partially Completed** | AI-driven workflow generation is implemented, but optimization and debugging features need enhancements. |
+| Workflow Template Library           | **Partially Completed** | Library exists, but needs more templates for industry-specific use cases.   |
+| Real-Time Monitoring                | **Not Started** | Monitoring tools for workflow execution performance are yet to be developed.|
+| Collaboration Tools                 | **Not Started** | Workflow collaboration features for teams are planned but not implemented.  |
+| Advanced Monitoring and Analytics   | **Not Started** | Detailed analytics and reporting features are pending development.          |
 
 ---
 
@@ -105,49 +48,84 @@ This tool is built primarily with **TypeScript (97.7%)**, along with **CSS (1.5%
 
 ---
 
-## Future Roadmap
+## Roadmap: What to Do Next
 
-- **Enhanced AI Features**:
-  - Advanced debugging capabilities.
-  - More intelligent workflow optimization suggestions.
-- **Expanded Template Library**:
-  - Templates for industry-specific use cases.
-- **Collaboration Tools**:
-  - Enable teams to collaborate on workflow design and management.
-- **Advanced Monitoring**:
-  - Detailed analytics and reporting for workflow performance.
+### Short-Term Goals:
+1. Enhance AI-driven features:
+   - Add debugging tools for workflows.
+   - Improve AI suggestions for optimizing workflows.
+2. Expand the Workflow Template Library:
+   - Add templates specific to industries like e-commerce, healthcare, etc.
+
+### Long-Term Goals:
+1. Build Real-Time Monitoring Tools:
+   - Develop tools to track workflow execution performance and errors in real-time.
+2. Implement Collaboration Features:
+   - Introduce shared workspaces and role-based access for team collaboration.
+3. Create Advanced Monitoring and Analytics:
+   - Add detailed reporting dashboards and analytics for workflow execution.
 
 ---
 
-## Getting Started
+## How to Contribute
 
-1. **Clone the Repository**:
+We welcome contributions from everyone! Here's how you can help:
+
+### For Beginners:
+1. **Update Documentation**: Improve the README or other documentation files.
+2. **Test Features**: Use the platform and report bugs or suggest improvements.
+3. **Add Templates**: Create and submit new workflow templates.
+
+### For Advanced Developers:
+1. **Enhance AI Features**: Work on improving the AI-powered workflow optimization and debugging capabilities.
+2. **Develop Monitoring Tools**: Help build real-time monitoring and analytics features.
+3. **Implement Collaboration**: Work on team-based collaboration tools and permissions.
+
+### Steps to Contribute:
+1. Fork the repository and clone it locally:
    ```bash
    git clone https://github.com/W3JDev/N8N-Workflow-Builder.git
    cd N8N-Workflow-Builder
    ```
-
-2. **Install Dependencies**:
+2. Create a new branch for your feature or fix:
    ```bash
-   npm install
+   git checkout -b feature-name
+   ```
+3. Make your changes and test them.
+4. Push your branch and open a pull request:
+   ```bash
+   git push origin feature-name
    ```
 
-3. **Run the Application**:
-   ```bash
-   npm start
-   ```
+For detailed guidance, refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file (if available) or open an issue for assistance.
 
-4. **Deploy to Netlify**:
-   - Follow the in-app interface for a one-click deployment to Netlify.
+---
+
+## Deployment Details
+
+The project is live at:
+**[https://vercel.com/mn-jewels-projects/v0-n8n-workflow-builder](https://vercel.com/mn-jewels-projects/v0-n8n-workflow-builder)**
+
+Continue building your app on:
+**[https://v0.dev/chat/projects/9RjfDFYiHDb](https://v0.dev/chat/projects/9RjfDFYiHDb)**
 
 ---
 
 ## Conclusion
 
-The **N8N Workflow Builder** is the ultimate tool for non-technical users to automate processes with n8n workflows and deploy them seamlessly to Netlify. By combining a visual workflow designer, AI-driven assistance, and Netlify-native architecture, this platform lowers the technical barrier to automation while maintaining full compatibility with n8n’s powerful capabilities.
+The **N8N Workflow Builder** is the ultimate tool for non-technical users to automate processes with n8n workflows and deploy them seamlessly to Netlify. By combining a visual workflow designer, AI-driven features, and a growing library of templates, we aim to redefine workflow automation.
 
-Let’s redefine workflow automation together!
+Let’s build this together!
 
---- 
+---
 
 If you have any questions or need further assistance, feel free to open an issue in this repository or contact the maintainers directly.
+```
+
+### Key Updates Added:
+- Clear comparison table for completed and pending features.
+- Defined short-term and long-term roadmap goals.
+- Enhanced contribution guidelines for both beginners and advanced developers.
+- Deployment details updated to indicate the use of **v0.dev**.
+
+Let me know if you'd like to refine or expand any section further!
